@@ -12,6 +12,7 @@
 		34CE41761B3A44F300B2B5B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CE41751B3A44F300B2B5B5 /* Images.xcassets */; };
 		34CE41791B3A44F300B2B5B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34CE41771B3A44F300B2B5B5 /* LaunchScreen.xib */; };
 		34CE41851B3A44F300B2B5B5 /* LearnGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CE41841B3A44F300B2B5B5 /* LearnGitTests.m */; };
+		34CE41901B3A478600B2B5B5 /* gaga.m in Sources */ = {isa = PBXBuildFile; fileRef = 34CE418F1B3A478600B2B5B5 /* gaga.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		34CE417E1B3A44F300B2B5B5 /* LearnGitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnGitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CE41831B3A44F300B2B5B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34CE41841B3A44F300B2B5B5 /* LearnGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnGitTests.m; sourceTree = "<group>"; };
+		34CE418E1B3A478600B2B5B5 /* gaga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gaga.h; sourceTree = "<group>"; };
+		34CE418F1B3A478600B2B5B5 /* gaga.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gaga.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			children = (
 				34CE41721B3A44F300B2B5B5 /* AppDelegate.h */,
 				34CE41731B3A44F300B2B5B5 /* AppDelegate.m */,
+				34CE418E1B3A478600B2B5B5 /* gaga.h */,
+				34CE418F1B3A478600B2B5B5 /* gaga.m */,
 				34CE41751B3A44F300B2B5B5 /* Images.xcassets */,
 				34CE41771B3A44F300B2B5B5 /* LaunchScreen.xib */,
 				34CE416E1B3A44F300B2B5B5 /* Supporting Files */,
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34CE41901B3A478600B2B5B5 /* gaga.m in Sources */,
 				34CE41741B3A44F300B2B5B5 /* AppDelegate.m in Sources */,
 				34CE41711B3A44F300B2B5B5 /* main.m in Sources */,
 			);
