@@ -22,6 +22,7 @@
     [self.window makeKeyAndVisible];
     
     NSLog(@"我第一次修改");
+    NSLog(@"我第二次修改");
     
     return YES;
 }
